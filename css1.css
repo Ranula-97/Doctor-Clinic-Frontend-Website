@@ -1,0 +1,48 @@
+.bookapo{
+    padding-top: 30px;
+}
+.txt h1{
+    font-size: 30px;
+   
+}
+.sz{
+    width: 90%;
+    padding-left: 12%;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+}
+
+.ulist{
+    list-style-type: none;
+}
+.icoselect{
+    padding-right: 10px;
+    color: #2683cf;
+}
+.line{
+    padding-top: 18px;
+}
+.btn3{
+    margin-bottom: 20px;
+}
+.txtlearn{
+    text-align: center;
+}
+h6{
+    color: #1e306e;
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+.icolearn{
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    color: #2683cf;
+}
+.bglearn{
+    background-color: #e0f3fd;
+    padding-bottom: 60px;
+}
+@media only screen and (max-width: 767px) {
+    
+   }

@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ocularis</title>
+    <link rel="shortcut icon" href="./images/titleicon.png">
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+    
+<div class="container" id="header">
+    <!--Start Section 01 -->
+    <div class="togle">
+      <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Home</a>
+        <a href="#clinic">About Clinic</a>
+        <a href="#services">Services</a>
+        <a href="#feature">Features</a>
+        <a href="#doctors">Doctors</a>
+      </div>
+      
+      <button class="openbtn" onclick="openNav()">☰</button>  
+      <script>
+      function openNav() {
+        document.getElementById("mySidepanel").style.width = "250px";
+        document.getElementById("mySidepanel").style.height= "330px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+      }
+      </script>
+    </div>
+    
+    <div class="row sec1">
+        <div class="col-md-3 logo">
+            <a href="#header"><img src="./images/logo.png" alt="logo" width="128" height="56" ></a>
+        </div>
+        <div class="col-md-3 loca1">
+            <i class="fa-solid fa-location-dot icoloca1"></i>
+            <span class="txt1">670 Lafayette Ave, Brooklyn, NY 11216</span>
+        </div>
+        <div class="col-md-3 phone">
+            <span class="txt1">Have questions?</span>
+            <i class="fa-solid fa-phone icophone"></i>
+           <b><span class="txt2">(123) 456-7890</span></b>
+        </div>
+        <div class="col-md-3 btng">
+            <center>
+               <a href="./appointment.html" class="btn">
+                <i class="fa-solid fa-book-open icobook"></i>
+                <span class="txt3">Book an Appoinment</span>
+            </a>
+            </center>    
+        </div>
+    </div>
+    <!-- End Section 01 -->
+</div>
+<br>
+    <!-- Start Section 02 -->
+
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top bgnav">
+      <div class="container-fluid">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item ">
+              <a class="navbar-brand lnk" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-brand lnk" href="#clinic">About Clinic</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-brand lnk" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-brand lnk" href="#feature">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-brand lnk" href="#doctors">Doctors</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn2" type="button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <!-- <i class="fa-solid fa-cart-shopping bgcart"></i>
+          <span class="badge rounded-pill bg-info bdge">3</span> -->
+        </div>
+      </div>
+      </div>
+        
+      </nav>
+    <!-- End Section 02 -->
+
+    <!-- Start Section 03 -->
+      <div class="container">
+        <div class="row">
+          <div class="col p1">
+            <center>
+              <p><span class="txt4">SPECIAL OFFERS APRIL!</span><b> -30% </b> for comprehensive vision diagnostics.</p>
+            </center>   
+          </div>
+      </div>
+      </div>
+    <!-- End Section 03 -->
+
+    <!-- Start Section 04 -->
+
+      <div class="section4">
+        <h1>The face is a picture</h1>
+          <h1>of the mind with an eyes</h1>
+        <h5>The face is a picture of the mind with an eyes</h5>
+        <a href="./aboutus.html" class="btn btn1">
+          <span class="txt3">Learn More About Us</span>
+        </a>
+        <div class="img1">
+          <img src="./images/image1.png" alt="image1" width="60%">
+        </div>
+      </div>
+
+  <!-- End Section 04 -->
+
+  <!-- Start Section 05 -->
+
+      <div class="container advantage">
+        <div class="txt6">
+          <h7>OUR ADVANTAGES</h7>
+          <h1>Good vision for many years</h1>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <img src="./images/ico6.png" alt="" width="55">
+            <span class="txt5">Best Practices</span>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="./images/ico9.png" alt="" width="55">
+            <span class="txt5">Newest equipment</span>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="./images/ico1.png" alt="" width="55">
+            <span class="txt5">Doctors experience</span>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="./images/ico2.png" alt="" width="55">
+            <span class="txt5">Thorough diagnosis</span>
+          </div>
+        </div>
+      </div>
+
+  <!-- End Section 05 -->
+
+  <!-- Start Section 06 -->
+
+      <div class="container-fluid bg2" id="clinic">
+        <div class="container">
+          <div class="row sec6">
+            <div class="col-md-6 clinic1">
+              <h7>ABOUT CLINIC</h7>
+              <h2>We are a recognized leader in high-tech ophthalmology services</h2>
+            </div>
+            <div class="col-md-6 clinic2">
+                <div class="txtright">
+                  <i class="fa-regular fa-circle-check citxt"></i>
+                  <span class="txt7">Performing all operations and procedures at the highest professional level using the most modern methods.</span>
+                </div>
+                <div class="txtright">
+                  <i class="fa-regular fa-circle-check citxt"></i>
+                  <span class="txt7">Drawing up an individual treatment program for each patient.</span>
+                </div>
+                <div class="txtright">
+                  <i class="fa-regular fa-circle-check citxt"></i>
+                  <span class="txt7">Compliance of materials and equipment with international standards, the availability of all necessary certificates and permits.</span>
+                </div>
+            </div>
+          </div>
+          <div class="form1 mx-auto">
+            <div class="row ">
+              <div class="col-12">         
+                <h3>Ask Us Anything!</h3>
+              </div>
+            </div>
+            <div class="row">
+              <form class="frm2">
+                <div class="col-md-12">
+                  <div class="mb-3 mt-3">
+                    <label for="" class="form-label">Full Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Full Name" name="full name">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="mb-3 mt-3">
+                      <label for="email" class="form-label">Email:</label>
+                      <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="mb-3 mt-3">
+                      <label for="" class="form-label">Phone Number:</label>
+                      <input type="number" class="form-control" id="phone" placeholder="Phone Number" name="phone number">
+                    </div>
+                  </div>
+                </div>
+              <div class="mb-3 mt-3">
+                <label for="" class="form-label">Message:</label>
+                <textarea class="form-control" rows="5" id="Your Message" name="text"></textarea>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <button type="submit" class="btn btn-primary btn_submit">Submit</button>
+                </div>
+                <div class="col-md-7 ">
+                  <span>By clicking the button you agree to the <a href="#"> Privacy Policy</a>
+                    and <a href="#"> Terms of Service .</a></span>
+                </div>
+              </div>
+              </form> 
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- End Section 06 -->
+  <!-- Start Section 07 -->
+      <div class="container service" id="services">
+        <div class="txt6">
+          <h7>OUR SERVICES</h7>
+          <h1>We offer a whole range of treatments for you, your family and friends</h1>
+        </div>
+
+      <div class="row border_full">
+        <div class="border_img">
+          <div class="box">
+            <img src="./images/ico1.png" alt="" width="70">
+              <p class="txt8">Comprehensive diagnosis of vision</p>
+          </div>
+          <div class="box">
+            <img src="./images/ico2.png" alt="" width="80">
+              <p class="txt9">Laser vision correction</p>
+          </div>
+          <div class="box">
+            <img src="./images/ico3.png" alt="" width="50">
+              <p class="txt10">Cataract surgery</p>
+          </div>
+          <div class="box">
+            <img src="./images/ico4.png" alt="" width="65">
+              <p class="txt11">Glaucoma treatment</p>
+      </div>
+      </div>
+      </div>
+<br>
+      <div class="row">
+        <div class="border_img">
+          <div class="box">
+            <img src="./images/ico5.png" alt="" width="65">
+              <p class="txt12">Retinal disease treatment</p>
+          </div>
+          <div class="box">
+            <img src="./images/ico6.png" alt="" width="75">
+              <p class="txt13">Phakic lens implantation</p>
+          </div>
+          <div class="box">
+            <img src="./images/ico7.png" alt="" width="65">
+              <p class="txt14">Keratoconus Treatment</p>
+          </div>
+          <div class="box">
+            <img src="./images/ico8.png" alt="" width="65">
+              <p class="txt15">Selection of glasses</p>
+      </div>
+      </div>
+      </div>
+      <div class="row">
+        <a href="#" class="txt16"><span>See All Services ></span></a>
+      </div>
+      </div>
+   <!-- End Section 07 -->
+
+   <!-- Start Section 08 -->  
+
+        <div class="section8">
+          <h1>Make an appointment with an ophthalmologist</h1>
+            <!-- <h1>an ophthalmologist</h1> -->
+            <div>
+              <span class="txt1 txthave">Have questions?</span>
+              <i class="fa-solid fa-phone icophone icocall"></i>
+             <b><span class="txt2 txtno">(123) 456-7890</span></b>
+            </div>
+            <div class="bookan">
+              <a href="./appointment.html" class="btn">
+                <i class="fa-solid fa-book-open icobook"></i>
+                <span class="txt3">Book an Appoinment</span>
+            </a>
+            </div>
+         
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <img src="./images/image2.jpg" alt="">
+            </div>
+            <div class="col-md-1">
+              <br>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <img src="./images/image3.jpg" alt="">
+              </div>
+              <br>
+              <div class="row">
+                <img src="./images/image4.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   <!-- End Section 08 -->
+
+   <!-- Start Section 09 -->
+      <div class="container features" id="feature">
+        <div class="txt6">
+          <h7>OUR FEATURES</h7>
+          <h1>Why we are</h1>
+        </div>
+        
+        <div class="row row-30 justify-content-center align-items-md-center">
+          <div class="col-6 col-sm-4 col-md-3">
+                  <!-- Counter-->
+                  <div class="counter counter-boxed counter-boxed-secondary">
+                    <div class="counter-value"><span data-counter="">24</span>
+                    </div>
+                    <div class="counter-title">Years of work</div>
+                  </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+                  <!-- Counter-->
+                  <div class="counter counter-boxed2">
+                    <div class="counter-value"><span data-counter="">500</span><span class="counter-postfix">+</span>
+                    </div>
+                    <div class="counter-title">Operations per year</div>
+                  </div>
+          </div>
+          <div class="col-sm-8 col-md-5 col-lg-5 ms-md-auto">
+            <h4>We guarantee</h4>
+            <h5>Turpis in eu mi bibendum neque egestas congue quisque. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus.
+            </h5><a class="txt16" href="about-clinic-v1.html">Learn More About Us ></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 tech">
+            <h4>Unique technology</h4>
+            <p class="txtnew1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua feugiat.</p>
+            <ul>
+              <li class="txtnew2">Magnis dis parturient montes nascetur</li>
+              <li class="txtnew2">Libero id faucibus nisl tincidunt eget</li>
+            </ul>
+            <p class="txtnew2">Feugiat in ante metus dictum at.</p>
+            
+              <a href="./askus.html" class="btn">
+                <span class="txt3">Ask us anything!</span>
+            </a>
+            
+          </div>
+          <div class="col-md-4 img5">
+            <div class="row">
+              <img src="./images/image5.jpg">
+            </div>
+            <div class="row img67">
+              <div class="col-md-6">
+                <img src="./images/image6.jpg" alt="">
+              </div>
+              <div class="col-md-6">
+                <img src="./images/image7.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- End Section 09 -->
+
+    <!-- Start Section 10 -->
+      <div class="container-fluid bg2">
+        <div class="container">
+          <div class="txt6">
+            <h7>TESTIMONIALS</h7>
+            <h1>Don’t take our word for it —<br>
+              hear what our customers are saying</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="quote">
+                <span><i class="fa-solid fa-quote-left qico"></i></span>
+                <p>Kat imperdiet sed euismod nisi porta lorem mollis. Eget arcu dictum varius duis at consectetur lorem. Arcu odio ut sem nulla pharetra diam...</p>
+              </div>
+              <div class="writer">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="./images/person1.jpg" class="rounded-circle" alt="Cinque Terre" width="60" height="60">
+                  </div>
+                  <div class="col-md-6 w1">
+                    <div class="row">
+                      <span>Eliza</span>
+                    </div>
+                    <div class="row">
+                      <span>2 months ago</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="quote">
+                <span><i class="fa-solid fa-quote-left qico"></i></span>
+                <p>Turpis nunc eget lorem dolor sed. Felis donec et odio pellentesque diam volutpat. Diam phasellus vestibulum.</p>
+              </div>
+              <div class="writer">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="./images/person2.jpg" class="rounded-circle" alt="Cinque Terre" width="60" height="60">
+                  </div>
+                  <div class="col-md-6 w1">
+                    <div class="row">
+                      <span>Matt Cowger</span>
+                    </div>
+                    <div class="row">
+                      <span>2 months ago</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="quote">
+                <span><i class="fa-solid fa-quote-left qico"></i></span>
+                <p>Fames ac turpis egestas sed tempus urna et. Nisl vel pretium lectus quam id.</p>
+              </div>
+              <div class="writer">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="./images/person3.jpg" class="rounded-circle" alt="Cinque Terre" width="60" height="60">
+                  </div>
+                  <div class="col-md-6 w1">
+                    <div class="row">
+                      <span>Michael Lee</span>
+                    </div>
+                    <div class="row">
+                      <span>2 months ago</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="quote">
+                <span><i class="fa-solid fa-quote-left qico"></i></span>
+                <p>Pellentesque id nibh tortor id aliquet lectus proin nibh nisl. Tellus rutrum tellus pellentesque eu. Viverra aliquet eget sit amet tellus cras.</p>
+              </div>
+              <div class="writer">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="./images/person4.jpg" class="rounded-circle" alt="Cinque Terre" width="60" height="60">
+                  </div>
+                  <div class="col-md-7 w1">
+                    <div class="row">
+                      <span>John Puddephatt</span>
+                    </div>
+                    <div class="row">
+                      <span>2 months ago</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- End Section 10 -->
+    
+    <!-- Start Section 11 -->
+      <div class="container" id="doctors">
+        <div class="txt6">
+          <h7>OUR DOCTORS</h7>
+          <h1>Trust the professionals</h1>
+        </div>
+        <div class="row docbottom">
+          <div class="col-lg-4">     
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="./images/doc1.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title nam1">Dr.Luc Perkins</h4>
+                <span class="desi">RETINA SPECIALIST AND SURGEON</span>
+                <p class="card-text ex1">Nibh ipsum consequat nisl vel pretium. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Ut tellus elementum sagittis vitae et leo duis ut diam. </p>
+                <a href="#" class="link">Learn More ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="./images/doc2.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title nam1">Dr.James Smith</h4>
+                <span class="desi">MANAGING DIRECTOR</span>
+                <p class="card-text ex1">Eget nulla facilisi etiam dignissim. Ut ornare lectus sit amet est placerat. Feugiat vivamus at augue eget arcu dictum varius. Aliquam nulla facilisi cras fermentum odio eu. </p>
+                <a href="#" class="link">Learn More ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="./images/doc3.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title nam1">Dr.Alain Bauza</h4>
+                <span class="desi">COMPREHENSIVE OPTHALMOLOGIST</span>
+                <p class="card-text ex1">Sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Diam ut venenatis tellus in metus. Sagittis nisl rhoncus mattis rhoncus.</p>
+                <a href="#" class="link">Learn More ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- End Section 11 -->
+
+    <!-- Start Section 12 -->
+      <div class="container-fluid bg4">
+        <div class="container maincon">
+          <div class="row bg3">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <img src="./images/logo2.png" width="140px">
+              <p class="foot1">We are a recognized leader in high-tech ophthalmology services</p>
+              <span>
+                <i class="fa-brands fa-facebook-f footico"></i>
+                <i class="fa-brands fa-twitter footico"></i>
+                <i class="fa-brands fa-instagram footico"></i>
+              </span>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <h8>What We Treat</h8>
+              <ul class="un">
+                <li>Astigmatism</li>
+                <li>Myopia</li>
+                <li>Cataract</li>
+                <li>Farsightedness</li>
+                <li>Glaucoma</li>
+                <li>Strabismus</li>
+                <li>Amblyopia</li>
+                <li>Retinal diseases</li>
+                <li>Keratoconus</li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <h8>Contacts</h8>
+              <div class="row contact">
+                <div class="col-md-1">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="col-md-10">
+                  <span>670 Lafayette Ave, Brooklyn, NY 11216</span>
+                </div>
+              </div>
+              <div class="row contact">
+                <div class="col-md-1">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="col-md-10">
+                  <span>(123) 456-7890</span>
+                </div>
+              </div>
+              <div class="row contact">
+                <div class="col-md-1">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="col-md-10">
+                  <span>info@demolink.org</span>
+                </div>
+              </div>
+              <div class="row contact">
+                <div class="col-md-1">
+                  <i class="fa-solid fa-book-open"></i>
+                </div>
+                <div class="col-md-10">
+                  <span>Book an Appointment</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <h8>Opening Hours</h8>
+              <ul class="un">
+                <li>Monday — 8am – 7pm</li>
+                <li>Tuesday — 8am – 7pm</li>
+                <li>Wednesday — 8am – 7:30pm</li>
+                <li>Thursday — 8am – 6:30pm</li>
+                <li>Friday —8am – 5pm</li>
+                <li>Saturday — 8am – 2pm</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    <!-- End Section 12 -->
+    <!-- statrt Footer -->
+      <footer>
+        <p><span class="mainfoot"> Copyright &copy; 2020 Ocularis.</span>
+          |<a href="#" class="pre"> Privacy Policy</a>
+          |<a href="#" class="pre"> Terms of Use</a> </p>
+      </footer>
+    <!-- End Footer -->
+</body>
+</html>
